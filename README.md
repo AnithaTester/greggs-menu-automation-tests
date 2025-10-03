@@ -94,13 +94,19 @@ This framework provides extensive coverage for **menu functionality**, **accessi
 ./gradlew test -Denvironment=production
 
 # Execution settings
+
 ./gradlew test -Dheadless=true
+
 ./gradlew test -Dtimeout=30
+
 ./gradlew test -Dgroups=smoke,accessibility
 
 # Debug and reporting
+
 ./gradlew test --debug --info
+
 ./gradlew test --tests "*BasicTest"
+
 ./gradlew clean test
 
 #⚙️ Configuration Options
