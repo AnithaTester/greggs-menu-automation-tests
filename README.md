@@ -86,7 +86,9 @@ This framework provides extensive coverage for **menu functionality**, **accessi
 
 🔧 Advanced Execution Options
 # Environment configuration
+
 ./gradlew test -DbaseUrl=https://staging.greggs.co.uk
+
 ./gradlew test -Denvironment=production
 
 # Execution settings
