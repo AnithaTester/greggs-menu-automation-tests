@@ -1,0 +1,1 @@
+package com.greggs.data;public class MenuItem {    public String name;    public String category;    public double price;    public boolean available;    // Getters and setters can be added if needed}

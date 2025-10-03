@@ -1,0 +1,1 @@
+{  "validSearchTerms": [    "sausage",    "roll",    "bake",    "sandwich",    "coffee",    "tea",    "vegan",    "vegetarian"  ],  "invalidSearchTerms": [    "xyz123",    "nonexistentproduct",    "!!!",    "verylongsearchtermthatdoesnotexist"  ],  "partialSearchTerms": [    "saus",    "bak",    "sand",    "veg"  ]}

@@ -1,0 +1,1 @@
+{  "expectedCategories": [    "Sandwiches",    "Bakes",    "Sweet Treats",    "Savoury",    "Breakfast",    "Drinks",    "Meal Deals",    "Seasonal"  ],  "categoryMinimumItems": {    "Sandwiches": 5,    "Bakes": 10,    "Sweet Treats": 8,    "Savoury": 6,    "Breakfast": 4,    "Drinks": 8,    "Meal Deals": 3,    "Seasonal": 2  }}
