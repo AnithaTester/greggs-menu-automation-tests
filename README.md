@@ -34,6 +34,20 @@ This framework provides extensive coverage for **menu functionality**, **accessi
 
 ---
 
+**🛠️ Technical Stack**
+| Component          | Technology              | Version |
+| ------------------ | ----------------------- | ------- |
+| Language           | Java                    | 17+     |
+| Test Framework     | TestNG                  | 7.8.0   |
+| Browser Automation | Selenium WebDriver      | 4.15.0  |
+| Build Tool         | Gradle                  | 7.6+    |
+| Reporting          | Extent Reports          | 5.1.1   |
+| Driver Management  | WebDriverManager        | 5.6.0   |
+| Utilities          | Apache Commons, Jackson | 2.15.1  |
+| Logging            | SLF4J                   | 2.0.9   |
+
+
+
 ## 🚀 **Quick Start**
 
 ### **Prerequisites**
@@ -46,7 +60,8 @@ This framework provides extensive coverage for **menu functionality**, **accessi
 **Installation & Setup**
 # Clone repository
 
- git clone repository-url␣␣  
+ git clone https://github.com/AnithaTester/greggs-menu-automation-tests
+ 
  cd greggs-automation-tests
 
 
@@ -59,7 +74,8 @@ This framework provides extensive coverage for **menu functionality**, **accessi
 # Run with specific browser
 ./gradlew test -Dbrowser=firefox
 
-# 📋 Test Execution Commands**
+# 📋 Test Execution Commands
+
 | Category      | Command                       | Description                   |
 | ------------- | ----------------------------- | ----------------------------- |
 | All Tests     | `./gradlew test`              | Complete test suite execution |
@@ -71,10 +87,14 @@ This framework provides extensive coverage for **menu functionality**, **accessi
 | Display       | `./gradlew testDisplay`       | UI and layout validation      |
 
 
-# 🌐 Browser-Specific Testing**
+
+# 🌐 Browser-Specific Testing
 # Desktop browsers
+
 ./gradlew testDesktop
+
 ./gradlew test -Dbrowser=firefox
+
 ./gradlew test -Dbrowser=safari
 
 # Mobile testing
@@ -84,9 +104,11 @@ This framework provides extensive coverage for **menu functionality**, **accessi
 ./gradlew test -Dmobile=true -DmobileDevice=GALAXY_S21
 
 # Cross-browser suite
+
 ./gradlew testAllBrowsers
 
-#🔧 Advanced Execution Options
+# Advanced Execution Options
+
 # Environment configuration
 
 ./gradlew test -DbaseUrl=https://staging.greggs.co.uk
@@ -109,7 +131,8 @@ This framework provides extensive coverage for **menu functionality**, **accessi
 
 ./gradlew clean test
 
-#⚙️ Configuration Options
+# ⚙️ Configuration Options
+
 # Browser configuration
 browser=chrome|firefox|safari|edge
 headless=true|false
@@ -205,7 +228,8 @@ parallel=true|false
     
     Network request optimization
 
-**🔎 Search & Filters (SearchFilterSpec)**
+**🔎 Search & Filters (SearchFilterSpec)
+**
     Search functionality validation
     
     Filter options testing
@@ -236,26 +260,7 @@ parallel=true|false
 ✅ Performance Monitoring  
 ✅ Configuration Management  
 
-  
 
-**🛠️ Technical Stack**
-| Component          | Technology              | Version |
-| ------------------ | ----------------------- | ------- |
-| Language           | Java                    | 17+     |
-| Test Framework     | TestNG                  | 7.8.0   |
-| Browser Automation | Selenium WebDriver      | 4.15.0  |
-| Build Tool         | Gradle                  | 7.6+    |
-| Reporting          | Extent Reports          | 5.1.1   |
-| Driver Management  | WebDriverManager        | 5.6.0   |
-| Utilities          | Apache Commons, Jackson | 2.15.1  |
-| Logging            | SLF4J                   | 2.0.9   |
-
-**🔧 Setup & Configuration**
-**Environment Setup**
-  # Install Java 17+
-  # Verify Gradle installation
-  # Clone repository and build
-  ./gradlew clean build
 
 # Custom Configuration
 Create `local.properties` for environment-specific settings:  
@@ -266,24 +271,6 @@ headless=false
 timeout=30  
 mobile=false
 
-# 🧩 IDE Setup
-IntelliJ IDEA
-
-Import as Gradle project
-
-Set JDK to Java 17
-
-Enable annotation processing
-
-Configure TestNG as test runner
-
-VS Code
-
-Install Java Extension Pack
-
-Configure java.home in settings
-
-Install TestNG for Java extension
 
 # 🪲 Debug Mode
 # Enable detailed logging
@@ -316,4 +303,5 @@ open test-output/screenshots/
 
 💡 For any questions or contributions, please open an issue or submit a pull request.
 Happy Testing! 🎯
+
 
