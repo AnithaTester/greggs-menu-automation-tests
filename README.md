@@ -78,13 +78,15 @@ This framework provides extensive coverage for **menu functionality**, **accessi
 ./gradlew test -Dbrowser=safari
 
 # Mobile testing
+
 ./gradlew testMobile
+
 ./gradlew test -Dmobile=true -DmobileDevice=GALAXY_S21
 
 # Cross-browser suite
 ./gradlew testAllBrowsers
 
-🔧 Advanced Execution Options
+#🔧 Advanced Execution Options
 # Environment configuration
 
 ./gradlew test -DbaseUrl=https://staging.greggs.co.uk
@@ -197,8 +199,7 @@ parallel=true|false
     
     Network request optimization
 
-**🔎 Search & Filters (SearchFilterSpec)
-**
+**🔎 Search & Filters (SearchFilterSpec)**
     Search functionality validation
     
     Filter options testing
