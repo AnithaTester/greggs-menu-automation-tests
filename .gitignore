@@ -1,0 +1,31 @@
+# ===============================================
+# 🌐 Selenium Java Automation Framework .gitignore
+# ===============================================
+
+# --- Java ---
+*.class
+*.log
+*.jar
+
+# --- Gradle ---
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# --- Logs & Reports ---
+logs/
+*.log
+test-output/
+reports/
+target/
+build/reports/
+build/test-results/
